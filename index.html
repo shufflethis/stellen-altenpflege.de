@@ -1,0 +1,55 @@
+
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>stellen-altenpflege.de | Karriere mit Herz</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800&family=Caveat:wght@700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Outfit', sans-serif;
+            background-color: #fafaf9;
+            color: #451a03;
+        }
+        .font-accent {
+            font-family: 'Caveat', cursive;
+        }
+        .care-pattern {
+            background-image: radial-gradient(#fecdd3 0.8px, transparent 0.8px);
+            background-size: 24px 24px;
+        }
+        .care-card {
+            background: #ffffff;
+            border-radius: 1.5rem;
+            box-shadow: 0 4px 20px -2px rgba(190, 18, 60, 0.05);
+            transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+            border: 1px solid #fff1f2;
+        }
+        .care-card:hover {
+            transform: translateY(-4px);
+            box-shadow: 0 20px 40px -4px rgba(190, 18, 60, 0.1);
+            border-color: #fda4af;
+        }
+        .bg-care-gradient {
+            background: linear-gradient(135deg, #be123c 0%, #e11d48 100%);
+        }
+    </style>
+<script type="importmap">
+{
+  "imports": {
+    "react": "https://esm.sh/react@^19.2.3",
+    "react-dom/": "https://esm.sh/react-dom@^19.2.3/",
+    "react/": "https://esm.sh/react@^19.2.3/",
+    "lucide-react": "https://esm.sh/lucide-react@^0.562.0"
+  }
+}
+</script>
+<link rel="stylesheet" href="/index.css">
+</head>
+<body class="care-pattern">
+    <div id="root"></div>
+<script type="module" src="/index.tsx"></script>
+</body>
+</html>
