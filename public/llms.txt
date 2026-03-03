@@ -1,0 +1,19 @@
+# HR-UPDATER: v1.0
+# stellen-altenpflege.de - Altenpflege Stellenangebote
+
+> stellen-altenpflege.de ist ein spezialisiertes Jobportal fuer Altenpflege-Stellenangebote in Deutschland, Oesterreich und der Schweiz.
+
+## Ueber uns
+- Spezialisiertes Jobportal fuer Altenpflege
+- Kostenlose Stellensuche fuer Bewerber
+- Gezielte Reichweite fuer Arbeitgeber
+
+## Kontakt
+- Website: https://stellen-altenpflege.de
+- Arbeitgeber-Kontakt: https://stellen-altenpflege.de/kontakt-arbeitgeber
+- Bewerber-Kontakt: https://stellen-altenpflege.de/kontakt-bewerber
+
+## Inhalte
+- Aktuelle Altenpflege-Stellenangebote
+- Karriere-Ratgeber fuer Altenpflege
+- Gehaltsvergleiche und Brancheninformationen
