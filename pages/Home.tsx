@@ -11,37 +11,229 @@ import { Heart, Stars, Users } from 'lucide-react';
 
 const MOCK_JOBS: Job[] = [
   {
-    id: 'care1',
-    title: 'Pflegefachkraft (m/w/d) - Stationär',
-    company: 'Seniorenresidenz Abendrot',
-    location: 'Dresden',
+    id: '1',
+    title: 'Pflegefachkraft (m/w/d) - Altenpflege',
+    company: 'MENetatis GmbH Seniorenzentrum MENetatis Villingen-Schwenningen',
+    location: 'Villingen-Schwenningen',
     type: 'Vollzeit',
-    salary: '3.400€ - 4.200€',
-    description: 'Werden Sie Teil unseres Teams im Herzen von Dresden. Wir bieten kleine Wohngruppen, eine digitale Pflegedokumentation und garantierte Wochenend-Freizeit.',
-    postedAt: 'Vor 2 Std.',
-    logo: 'https://picsum.photos/seed/care1/120/120'
+    description: 'Pflegefachkraft (m/w/d) - Altenpflege',
+    postedAt: '2026-03-04'
   },
   {
-    id: 'care2',
-    title: 'Pflegehelfer (m/w/d) mit Herz',
-    company: 'Ambulanter Pflegedienst "Hand in Hand"',
-    location: 'Leipzig',
-    type: 'Teilzeit',
-    salary: '2.100€ - 2.600€',
-    description: 'Begleiten Sie unsere Senioren in ihrem Zuhause. Wir legen Wert auf Zeit für Gespräche und eine tourenoptimierte Planung ohne Stress.',
-    postedAt: 'Vor 5 Std.',
-    logo: 'https://picsum.photos/seed/care2/120/120'
+    id: '2',
+    title: 'Pflegefachkraft (m/w/d) - Altenpflege',
+    company: 'MENetatis Pflegen und Wohnen GmbH ArteCare Pflegezentrum Reinhardshagen',
+    location: 'Reinhardshagen',
+    type: 'Vollzeit',
+    description: 'Pflegefachkraft (m/w/d) - Altenpflege',
+    postedAt: '2026-03-04'
   },
   {
-    id: 'care3',
-    title: 'Pflegedienstleitung (PDL)',
-    company: 'Haus Lebensfreude GmbH',
-    location: 'Berlin-Zehlendorf',
+    id: '3',
+    title: 'Pflegefachmann/Pflegefachfrau (Altenpflege) (m/w/d)',
+    company: 'Tempton Personaldienstleistungen GmbH NL Greifswald',
+    location: 'Stralsund',
     type: 'Vollzeit',
-    salary: '5.200€ - 6.500€',
-    description: 'Leitung einer modernen Einrichtung mit 80 Plätzen. Gestalten Sie innovative Pflegekonzepte und führen Sie ein motiviertes Team.',
-    postedAt: 'Gestern',
-    logo: 'https://picsum.photos/seed/care3/120/120'
+    description: 'Pflegefachmann/Pflegefachfrau (Altenpflege) (m/w/d)',
+    postedAt: '2026-03-02'
+  },
+  {
+    id: '4',
+    title: 'Pflegefachmann/Pflegefachfrau (Altenpflege) (m/w/d)',
+    company: 'Orizon GmbH, Niederlassung Markgräflerland',
+    location: 'Schopfheim',
+    type: 'Vollzeit',
+    description: 'Pflegefachmann/Pflegefachfrau (Altenpflege) (m/w/d)',
+    postedAt: '2026-03-02'
+  },
+  {
+    id: '5',
+    title: 'Pflegefachkraft (m/w/d) Altenpflege - Wunschprämie!',
+    company: 'KCS Medical GmbH',
+    location: 'Schwalmstadt',
+    type: 'Vollzeit',
+    description: 'Pflegefachkraft (m/w/d) Altenpflege - Wunschprämie!',
+    postedAt: '2026-03-02'
+  },
+  {
+    id: '6',
+    title: 'Pflegefachkraft (Altenpflege)',
+    company: 'KCS Medical GmbH',
+    location: 'Darmstadt',
+    type: 'Vollzeit',
+    description: 'Pflegefachkraft (Altenpflege)',
+    postedAt: '2026-02-27'
+  },
+  {
+    id: '7',
+    title: 'Pflegefachkraft für Altenpflege (m/w/d)',
+    company: 'MÜNCHENSTIFT GmbH',
+    location: 'München',
+    type: 'Vollzeit',
+    description: 'Pflegefachkraft für Altenpflege (m/w/d)',
+    postedAt: '2026-02-24'
+  },
+  {
+    id: '8',
+    title: 'Pflegehelfer in der Altenpflege (m/w/d)',
+    company: 'MÜNCHENSTIFT GmbH',
+    location: 'München',
+    type: 'Vollzeit',
+    description: 'Pflegehelfer in der Altenpflege (m/w/d)',
+    postedAt: '2026-02-22'
+  },
+  {
+    id: '9',
+    title: 'Pflegefachkraft - Altenpflege (m/w/d)',
+    company: 'Privathaushalt',
+    location: 'Heidelberg, Neckar',
+    type: 'Vollzeit',
+    description: 'Pflegefachkraft - Altenpflege (m/w/d)',
+    postedAt: '2026-02-22'
+  },
+  {
+    id: '10',
+    title: 'Pflegefachkraft Altenpflege (m/w/d)',
+    company: 'Avanti GmbH NL München',
+    location: 'München',
+    type: 'Vollzeit',
+    description: 'Pflegefachkraft Altenpflege (m/w/d)',
+    postedAt: '2026-02-20'
+  },
+  {
+    id: '11',
+    title: 'Pflegeassistent/Pflegeassistentin (Altenpflege) (m/w/d)',
+    company: 'Stewe Personalservice GmbH & Co. KG - Niederlassung Iserlohn',
+    location: 'Iserlohn',
+    type: 'Vollzeit',
+    description: 'Pflegeassistent/Pflegeassistentin (Altenpflege) (m/w/d)',
+    postedAt: '2026-02-20'
+  },
+  {
+    id: '12',
+    title: 'Pflegeassistent/Pflegeassistentin (Altenpflege) (m/w/d)',
+    company: 'iperdi AHR GmbH - Niederlassung Ludwigslust',
+    location: 'Ludwigslust, Mecklenburg',
+    type: 'Vollzeit',
+    description: 'Pflegeassistent/Pflegeassistentin (Altenpflege) (m/w/d)',
+    postedAt: '2026-02-20'
+  },
+  {
+    id: '13',
+    title: 'Pflegefachkraft (m/w/d) in der Altenpflege',
+    company: 'Dr. Ebel Fachkliniken GmbH & Co. Carolinum KG',
+    location: 'Bad Karlshafen',
+    type: 'Vollzeit',
+    description: 'Pflegefachkraft (m/w/d) in der Altenpflege',
+    postedAt: '2026-02-17'
+  },
+  {
+    id: '14',
+    title: 'Helfer/in - Altenpflege',
+    company: 'PerZukunft Arbeitsvermittlung GmbH&Co.KG',
+    location: 'Berlin',
+    type: 'Vollzeit',
+    description: 'Helfer/in - Altenpflege',
+    postedAt: '2026-02-17'
+  },
+  {
+    id: '15',
+    title: 'Pflegefachmann/Pflegefachfrau (Altenpflege) (m/w/d)',
+    company: 'iperdi AHR GmbH - Niederlassung Bremen',
+    location: 'Bremen',
+    type: 'Vollzeit',
+    description: 'Pflegefachmann/Pflegefachfrau (Altenpflege) (m/w/d)',
+    postedAt: '2026-02-16'
+  },
+  {
+    id: '16',
+    title: 'Pflegeassistent/Pflegeassistentin (Altenpflege) (m/w/d)',
+    company: 'OPTIPER GmbH - Niederlassung Mühlhausen',
+    location: 'Mühlhausen/Thüringen',
+    type: 'Vollzeit',
+    description: 'Pflegeassistent/Pflegeassistentin (Altenpflege) (m/w/d)',
+    postedAt: '2026-02-16'
+  },
+  {
+    id: '17',
+    title: 'Pflegefachkraft - Altenpflege  m/w/d',
+    company: 'PerZukunft Arbeitsvermittlung GmbH&Co.KG',
+    location: 'Berlin',
+    type: 'Vollzeit',
+    description: 'Pflegefachkraft - Altenpflege  m/w/d',
+    postedAt: '2026-02-11'
+  },
+  {
+    id: '18',
+    title: 'Pflegefachmann/-frau (Altenpflege) (m/w/d)',
+    company: 'PRO-LOG IV GmbH',
+    location: 'Osnabrück',
+    type: 'Vollzeit',
+    description: 'Pflegefachmann/-frau (Altenpflege) (m/w/d)',
+    postedAt: '2026-02-10'
+  },
+  {
+    id: '19',
+    title: 'Pflegefachmann/Pflegefachfrau -Altenpflege (m/w/d)',
+    company: 'Tempton Personaldienstleistungen GmbH NL Magdeburg Medical',
+    location: 'Seesen, Harz',
+    type: 'Vollzeit',
+    description: 'Pflegefachmann/Pflegefachfrau -Altenpflege (m/w/d)',
+    postedAt: '2026-02-03'
+  },
+  {
+    id: '20',
+    title: 'Pflegehelfer für die Altenpflege (m/w/d)',
+    company: 'CLG Perso Network UG CLG Perso Network UG gew Arbeitnehmerüberlassung',
+    location: 'Blankenfelde-Mahlow',
+    type: 'Vollzeit',
+    description: 'Pflegehelfer für die Altenpflege (m/w/d)',
+    postedAt: '2026-02-02'
+  },
+  {
+    id: '21',
+    title: 'Pflegefachmann/Pflegefachfrau (Altenpflege) (m/w/d)',
+    company: 'Tempton Personaldienstleistungen GmbH Medical Zwickau',
+    location: 'Glauchau',
+    type: 'Vollzeit',
+    description: 'Pflegefachmann/Pflegefachfrau (Altenpflege) (m/w/d)',
+    postedAt: '2026-02-02'
+  },
+  {
+    id: '22',
+    title: 'Pflegeassistent/Pflegeassistentin (Altenpflege) (m/w/d)',
+    company: 'Tempton Personaldienstleistungen GmbH Medical Zwickau',
+    location: 'Lößnitz',
+    type: 'Vollzeit',
+    description: 'Pflegeassistent/Pflegeassistentin (Altenpflege) (m/w/d)',
+    postedAt: '2026-02-02'
+  },
+  {
+    id: '23',
+    title: 'Pflegefachmann Altenpflege (m/w/d)',
+    company: 'Tempton Personaldienstleistungen GmbH NL Hamburg Medical',
+    location: 'Barsbüttel',
+    type: 'Vollzeit',
+    description: 'Pflegefachmann Altenpflege (m/w/d)',
+    postedAt: '2026-02-02'
+  },
+  {
+    id: '24',
+    title: 'Pflegefachmann  Altenpflege (m/w/d)',
+    company: 'Tempton Personaldienstleistungen GmbH NL Hamburg Medical',
+    location: 'Neu Wulmstorf, Niederelbe',
+    type: 'Vollzeit',
+    description: 'Pflegefachmann  Altenpflege (m/w/d)',
+    postedAt: '2026-02-02'
+  },
+  {
+    id: '25',
+    title: 'Pflegefachmann/Pflegefachfrau (Altenpflege) (m/w/d)',
+    company: 'Tempton Personaldienstleistungen GmbH NL Chemnitz MED',
+    location: 'Geringswalde',
+    type: 'Vollzeit',
+    description: 'Pflegefachmann/Pflegefachfrau (Altenpflege) (m/w/d)',
+    postedAt: '2026-02-02'
   }
 ];
 
