@@ -12,6 +12,87 @@ import { Heart, Stars, Users } from 'lucide-react';
 const MOCK_JOBS: Job[] = [
   {
     id: '1',
+    title: 'Wagenmeister/in (m/w/d) für den mobilen Dienst als Vorarbeiter/in (m/w/d)',
+    company: 'NORDIC RAIL SERVICE GMBH',
+    location: 'Lübeck',
+    type: 'Vollzeit',
+    description: 'Wagenmeister/in (m/w/d) für den mobilen Dienst als Vorarbeiter/in (m/w/d)',
+    postedAt: '2026-03-08'
+  },
+  {
+    id: '2',
+    title: 'Versicherungs- und Finanzexperte im angestellten Außendienst im Raum Weißenburg/Gunzenhausen (w/m/d)',
+    company: 'HUK-COBURG Versicherungsgruppe',
+    location: 'Weißenburg i. Bayern',
+    type: 'Vollzeit',
+    description: 'Versicherungs- und Finanzexperte im angestellten Außendienst im Raum Weißenburg/Gunzenhausen (w/m/d)',
+    postedAt: '2026-03-08'
+  },
+  {
+    id: '3',
+    title: 'Versicherungs- und Finanzexperte im angestellten Außendienst im Raum Weißenburg/Gunzenhausen (w/m/d)',
+    company: 'HUK-COBURG Versicherungsgruppe',
+    location: 'Nürnberg',
+    type: 'Vollzeit',
+    description: 'Versicherungs- und Finanzexperte im angestellten Außendienst im Raum Weißenburg/Gunzenhausen (w/m/d)',
+    postedAt: '2026-03-08'
+  },
+  {
+    id: '4',
+    title: 'Key Account Manager (m/w/d) - Gebiet Großraum Nürnberg - München',
+    company: 'Sikla GmbH',
+    location: 'Nürnberg',
+    type: 'Vollzeit',
+    description: 'Key Account Manager (m/w/d) - Gebiet Großraum Nürnberg - München',
+    postedAt: '2026-03-08'
+  },
+  {
+    id: '5',
+    title: 'Key Account Manager (m/w/d) - Gebiet Großraum Nürnberg - München',
+    company: 'Sikla GmbH',
+    location: 'München',
+    type: 'Vollzeit',
+    description: 'Key Account Manager (m/w/d) - Gebiet Großraum Nürnberg - München',
+    postedAt: '2026-03-08'
+  },
+  {
+    id: '6',
+    title: 'Pflegehilfskraft (m/w/d) Altenpflege',
+    company: 'WEISS Personalmanagement GmbH - Aschaffenburg',
+    location: 'Aschaffenburg',
+    type: 'Vollzeit',
+    description: 'Pflegehilfskraft (m/w/d) Altenpflege',
+    postedAt: '2026-03-07'
+  },
+  {
+    id: '7',
+    title: 'Pflegefachmann/Pflegefachfrau (Altenpflege) (m/w/d)',
+    company: 'Tempton Personaldienstleistungen GmbH NL Magdeburg Medical',
+    location: 'Langelsheim',
+    type: 'Vollzeit',
+    description: 'Pflegefachmann/Pflegefachfrau (Altenpflege) (m/w/d)',
+    postedAt: '2026-03-06'
+  },
+  {
+    id: '8',
+    title: 'Pflegedienstleitung (m/w/d) Altenpflege',
+    company: 'GS Company Cottbus GmbH & Co. KG',
+    location: 'Finsterwalde',
+    type: 'Vollzeit',
+    description: 'Pflegedienstleitung (m/w/d) Altenpflege',
+    postedAt: '2026-03-06'
+  },
+  {
+    id: '9',
+    title: 'Helfer Altenpflege m/w/d - Altenheim',
+    company: 'PerZukunft Arbeitsvermittlung GmbH&Co.KG',
+    location: 'Berlin',
+    type: 'Vollzeit',
+    description: 'Helfer Altenpflege m/w/d - Altenheim',
+    postedAt: '2026-03-06'
+  },
+  {
+    id: '10',
     title: 'Pflegefachkraft (m/w/d) - Altenpflege',
     company: 'MENetatis GmbH Seniorenzentrum MENetatis Villingen-Schwenningen',
     location: 'Villingen-Schwenningen',
@@ -20,7 +101,7 @@ const MOCK_JOBS: Job[] = [
     postedAt: '2026-03-04'
   },
   {
-    id: '2',
+    id: '11',
     title: 'Pflegefachkraft (m/w/d) - Altenpflege',
     company: 'MENetatis Pflegen und Wohnen GmbH ArteCare Pflegezentrum Reinhardshagen',
     location: 'Reinhardshagen',
@@ -29,7 +110,7 @@ const MOCK_JOBS: Job[] = [
     postedAt: '2026-03-04'
   },
   {
-    id: '3',
+    id: '12',
     title: 'Pflegefachmann/Pflegefachfrau (Altenpflege) (m/w/d)',
     company: 'Tempton Personaldienstleistungen GmbH NL Greifswald',
     location: 'Stralsund',
@@ -38,7 +119,7 @@ const MOCK_JOBS: Job[] = [
     postedAt: '2026-03-02'
   },
   {
-    id: '4',
+    id: '13',
     title: 'Pflegefachmann/Pflegefachfrau (Altenpflege) (m/w/d)',
     company: 'Orizon GmbH, Niederlassung Markgräflerland',
     location: 'Schopfheim',
@@ -47,7 +128,7 @@ const MOCK_JOBS: Job[] = [
     postedAt: '2026-03-02'
   },
   {
-    id: '5',
+    id: '14',
     title: 'Pflegefachkraft (m/w/d) Altenpflege - Wunschprämie!',
     company: 'KCS Medical GmbH',
     location: 'Schwalmstadt',
@@ -56,7 +137,7 @@ const MOCK_JOBS: Job[] = [
     postedAt: '2026-03-02'
   },
   {
-    id: '6',
+    id: '15',
     title: 'Pflegefachkraft (Altenpflege)',
     company: 'KCS Medical GmbH',
     location: 'Darmstadt',
@@ -65,7 +146,7 @@ const MOCK_JOBS: Job[] = [
     postedAt: '2026-02-27'
   },
   {
-    id: '7',
+    id: '16',
     title: 'Pflegefachkraft für Altenpflege (m/w/d)',
     company: 'MÜNCHENSTIFT GmbH',
     location: 'München',
@@ -74,7 +155,7 @@ const MOCK_JOBS: Job[] = [
     postedAt: '2026-02-24'
   },
   {
-    id: '8',
+    id: '17',
     title: 'Pflegehelfer in der Altenpflege (m/w/d)',
     company: 'MÜNCHENSTIFT GmbH',
     location: 'München',
@@ -83,7 +164,7 @@ const MOCK_JOBS: Job[] = [
     postedAt: '2026-02-22'
   },
   {
-    id: '9',
+    id: '18',
     title: 'Pflegefachkraft - Altenpflege (m/w/d)',
     company: 'Privathaushalt',
     location: 'Heidelberg, Neckar',
@@ -92,7 +173,7 @@ const MOCK_JOBS: Job[] = [
     postedAt: '2026-02-22'
   },
   {
-    id: '10',
+    id: '19',
     title: 'Pflegefachkraft Altenpflege (m/w/d)',
     company: 'Avanti GmbH NL München',
     location: 'München',
@@ -101,7 +182,7 @@ const MOCK_JOBS: Job[] = [
     postedAt: '2026-02-20'
   },
   {
-    id: '11',
+    id: '20',
     title: 'Pflegeassistent/Pflegeassistentin (Altenpflege) (m/w/d)',
     company: 'Stewe Personalservice GmbH & Co. KG - Niederlassung Iserlohn',
     location: 'Iserlohn',
@@ -110,7 +191,7 @@ const MOCK_JOBS: Job[] = [
     postedAt: '2026-02-20'
   },
   {
-    id: '12',
+    id: '21',
     title: 'Pflegeassistent/Pflegeassistentin (Altenpflege) (m/w/d)',
     company: 'iperdi AHR GmbH - Niederlassung Ludwigslust',
     location: 'Ludwigslust, Mecklenburg',
@@ -119,7 +200,7 @@ const MOCK_JOBS: Job[] = [
     postedAt: '2026-02-20'
   },
   {
-    id: '13',
+    id: '22',
     title: 'Pflegefachkraft (m/w/d) in der Altenpflege',
     company: 'Dr. Ebel Fachkliniken GmbH & Co. Carolinum KG',
     location: 'Bad Karlshafen',
@@ -128,7 +209,7 @@ const MOCK_JOBS: Job[] = [
     postedAt: '2026-02-17'
   },
   {
-    id: '14',
+    id: '23',
     title: 'Helfer/in - Altenpflege',
     company: 'PerZukunft Arbeitsvermittlung GmbH&Co.KG',
     location: 'Berlin',
@@ -137,7 +218,7 @@ const MOCK_JOBS: Job[] = [
     postedAt: '2026-02-17'
   },
   {
-    id: '15',
+    id: '24',
     title: 'Pflegefachmann/Pflegefachfrau (Altenpflege) (m/w/d)',
     company: 'iperdi AHR GmbH - Niederlassung Bremen',
     location: 'Bremen',
@@ -146,94 +227,13 @@ const MOCK_JOBS: Job[] = [
     postedAt: '2026-02-16'
   },
   {
-    id: '16',
+    id: '25',
     title: 'Pflegeassistent/Pflegeassistentin (Altenpflege) (m/w/d)',
     company: 'OPTIPER GmbH - Niederlassung Mühlhausen',
     location: 'Mühlhausen/Thüringen',
     type: 'Vollzeit',
     description: 'Pflegeassistent/Pflegeassistentin (Altenpflege) (m/w/d)',
     postedAt: '2026-02-16'
-  },
-  {
-    id: '17',
-    title: 'Pflegefachkraft - Altenpflege  m/w/d',
-    company: 'PerZukunft Arbeitsvermittlung GmbH&Co.KG',
-    location: 'Berlin',
-    type: 'Vollzeit',
-    description: 'Pflegefachkraft - Altenpflege  m/w/d',
-    postedAt: '2026-02-11'
-  },
-  {
-    id: '18',
-    title: 'Pflegefachmann/-frau (Altenpflege) (m/w/d)',
-    company: 'PRO-LOG IV GmbH',
-    location: 'Osnabrück',
-    type: 'Vollzeit',
-    description: 'Pflegefachmann/-frau (Altenpflege) (m/w/d)',
-    postedAt: '2026-02-10'
-  },
-  {
-    id: '19',
-    title: 'Pflegefachmann/Pflegefachfrau -Altenpflege (m/w/d)',
-    company: 'Tempton Personaldienstleistungen GmbH NL Magdeburg Medical',
-    location: 'Seesen, Harz',
-    type: 'Vollzeit',
-    description: 'Pflegefachmann/Pflegefachfrau -Altenpflege (m/w/d)',
-    postedAt: '2026-02-03'
-  },
-  {
-    id: '20',
-    title: 'Pflegehelfer für die Altenpflege (m/w/d)',
-    company: 'CLG Perso Network UG CLG Perso Network UG gew Arbeitnehmerüberlassung',
-    location: 'Blankenfelde-Mahlow',
-    type: 'Vollzeit',
-    description: 'Pflegehelfer für die Altenpflege (m/w/d)',
-    postedAt: '2026-02-02'
-  },
-  {
-    id: '21',
-    title: 'Pflegefachmann/Pflegefachfrau (Altenpflege) (m/w/d)',
-    company: 'Tempton Personaldienstleistungen GmbH Medical Zwickau',
-    location: 'Glauchau',
-    type: 'Vollzeit',
-    description: 'Pflegefachmann/Pflegefachfrau (Altenpflege) (m/w/d)',
-    postedAt: '2026-02-02'
-  },
-  {
-    id: '22',
-    title: 'Pflegeassistent/Pflegeassistentin (Altenpflege) (m/w/d)',
-    company: 'Tempton Personaldienstleistungen GmbH Medical Zwickau',
-    location: 'Lößnitz',
-    type: 'Vollzeit',
-    description: 'Pflegeassistent/Pflegeassistentin (Altenpflege) (m/w/d)',
-    postedAt: '2026-02-02'
-  },
-  {
-    id: '23',
-    title: 'Pflegefachmann Altenpflege (m/w/d)',
-    company: 'Tempton Personaldienstleistungen GmbH NL Hamburg Medical',
-    location: 'Barsbüttel',
-    type: 'Vollzeit',
-    description: 'Pflegefachmann Altenpflege (m/w/d)',
-    postedAt: '2026-02-02'
-  },
-  {
-    id: '24',
-    title: 'Pflegefachmann  Altenpflege (m/w/d)',
-    company: 'Tempton Personaldienstleistungen GmbH NL Hamburg Medical',
-    location: 'Neu Wulmstorf, Niederelbe',
-    type: 'Vollzeit',
-    description: 'Pflegefachmann  Altenpflege (m/w/d)',
-    postedAt: '2026-02-02'
-  },
-  {
-    id: '25',
-    title: 'Pflegefachmann/Pflegefachfrau (Altenpflege) (m/w/d)',
-    company: 'Tempton Personaldienstleistungen GmbH NL Chemnitz MED',
-    location: 'Geringswalde',
-    type: 'Vollzeit',
-    description: 'Pflegefachmann/Pflegefachfrau (Altenpflege) (m/w/d)',
-    postedAt: '2026-02-02'
   }
 ];
 
