@@ -7,7 +7,8 @@ import JobCard from '../components/JobCard';
 import Sidebar from '../components/Sidebar';
 import Hero from '../components/Hero';
 import { Job } from '../types';
-import { Heart, Stars, Users } from 'lucide-react';
+import { Heart, Stars, Users, GraduationCap, TrendingUp, HelpCircle } from 'lucide-react';
+import GeoStaedte from '../components/geo/GeoStaedte';
 
 const MOCK_JOBS: Job[] = [
   {
@@ -253,10 +254,10 @@ const Home: React.FC = () => {
         <Hero />
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
           <div className="flex flex-col lg:flex-row gap-12">
-            <aside className="w-full lg:w-1/4">
+            <aside className="w-full lg:w-1/4 order-2 lg:order-1">
               <Sidebar />
             </aside>
-            <div className="w-full lg:w-3/4">
+            <div className="w-full lg:w-3/4 order-1 lg:order-2">
               <div className="flex items-center justify-between mb-8 bg-white p-8 rounded-[2rem] border border-rose-50 shadow-sm">
                 <div className="flex items-center gap-5">
                   <div className="bg-rose-600 p-4 rounded-full text-white shadow-lg shadow-rose-200">
@@ -313,8 +314,97 @@ const Home: React.FC = () => {
             </div>
           </div>
         </div>
+
+        {/* Geo SEO: Deutsche Staedte */}
+        <GeoStaedte />
+
+        {/* Karriere in der Altenpflege */}
+        <section className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16">
+          <div className="bg-white rounded-[2rem] border border-rose-50 shadow-sm p-8 md:p-12">
+            <div className="flex items-center gap-4 mb-8">
+              <div className="bg-rose-100 p-3 rounded-full">
+                <GraduationCap size={28} className="text-rose-600" />
+              </div>
+              <h2 className="text-3xl font-bold text-rose-950 tracking-tight">Karriere in der Altenpflege</h2>
+            </div>
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-8 text-rose-900/70 leading-relaxed">
+              <div>
+                <h3 className="text-xl font-bold text-rose-950 mb-3 flex items-center gap-2"><TrendingUp size={20} className="text-rose-500" /> Berufsbild & Perspektiven</h3>
+                <p className="mb-4">
+                  Die Altenpflege gehört zu den wichtigsten und zukunftssichersten Berufsfeldern in Deutschland.
+                  Mit dem demografischen Wandel steigt der Bedarf an qualifizierten Pflegekräften stetig.
+                  Altenpflegerinnen und Altenpfleger betreuen und versorgen ältere Menschen in stationären
+                  Einrichtungen, ambulanten Diensten oder Tagespflegeeinrichtungen.
+                </p>
+                <p>
+                  Typische Aufgaben umfassen die Grundpflege, medizinische Behandlungspflege, Dokumentation,
+                  Beratung von Angehörigen sowie die Gestaltung des Tagesablaufs. Die Ausbildung zur
+                  Pflegefachkraft dauert drei Jahre und eröffnet vielfältige Karrierewege.
+                </p>
+              </div>
+              <div>
+                <h3 className="text-xl font-bold text-rose-950 mb-3">Weiterbildung & Aufstiegsmöglichkeiten</h3>
+                <ul className="space-y-3">
+                  <li className="flex items-start gap-2"><span className="text-rose-500 font-bold mt-1">•</span> <span><b>Pflegedienstleitung (PDL):</b> Leitungsposition mit Personalverantwortung und Gehältern ab 3.800 EUR</span></li>
+                  <li className="flex items-start gap-2"><span className="text-rose-500 font-bold mt-1">•</span> <span><b>Wohnbereichsleitung:</b> Verantwortung für einen Wohnbereich mit Team von 10-20 Pflegekräften</span></li>
+                  <li className="flex items-start gap-2"><span className="text-rose-500 font-bold mt-1">•</span> <span><b>Praxisanleitung:</b> Ausbildung und Begleitung von Nachwuchskräften in der Pflege</span></li>
+                  <li className="flex items-start gap-2"><span className="text-rose-500 font-bold mt-1">•</span> <span><b>Fachweiterbildungen:</b> Gerontopsychiatrie, Palliativpflege, Wundmanagement</span></li>
+                  <li className="flex items-start gap-2"><span className="text-rose-500 font-bold mt-1">•</span> <span><b>Studium:</b> Pflegewissenschaft, Pflegemanagement oder Gerontologie an Fachhochschulen</span></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        {/* FAQ Section */}
+        <section className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16">
+          <div className="bg-white rounded-[2rem] border border-rose-50 shadow-sm p-8 md:p-12">
+            <div className="flex items-center gap-4 mb-8">
+              <div className="bg-rose-100 p-3 rounded-full">
+                <HelpCircle size={28} className="text-rose-600" />
+              </div>
+              <h2 className="text-3xl font-bold text-rose-950 tracking-tight">Häufig gestellte Fragen</h2>
+            </div>
+            <div className="space-y-6" itemScope itemType="https://schema.org/FAQPage">
+              {[
+                {
+                  q: 'Ist die Stellensuche auf stellen-altenpflege.de kostenlos?',
+                  a: 'Ja, die Suche nach Altenpflege-Stellenangeboten ist für Bewerberinnen und Bewerber vollständig kostenlos. Sie können alle Stellenanzeigen durchsuchen und sich direkt bei den Arbeitgebern bewerben.'
+                },
+                {
+                  q: 'Welche Qualifikationen brauche ich für die Altenpflege?',
+                  a: 'Für eine Tätigkeit als Pflegefachkraft benötigen Sie eine dreijährige Ausbildung zur/zum Pflegefachfrau/-mann (seit 2020 generalistisch). Für Pflegehilfskräfte gibt es je nach Bundesland ein- bis zweijährige Ausbildungen. Auch Quereinsteiger mit entsprechenden Schulungen haben gute Chancen.'
+                },
+                {
+                  q: 'Wie hoch ist das Gehalt in der Altenpflege?',
+                  a: 'Das Einstiegsgehalt für examinierte Altenpfleger liegt bei ca. 2.800-3.200 EUR brutto/Monat. Mit Berufserfahrung, Zulagen (Nacht, Wochenende, Feiertage) und Weiterbildungen sind 3.500-4.500 EUR realistisch. Pflegedienstleitungen verdienen ab 3.800 EUR aufwärts.'
+                },
+                {
+                  q: 'In welchen Städten gibt es die meisten Altenpflege-Stellenangebote?',
+                  a: 'Die meisten Stellenangebote in der Altenpflege finden sich in Großstädten wie Berlin, München, Hamburg, Köln, Frankfurt am Main, Stuttgart und Düsseldorf. Aber auch in kleineren Städten und ländlichen Regionen besteht ein hoher Bedarf an Pflegekräften.'
+                },
+                {
+                  q: 'Was ist der Unterschied zwischen ambulanter und stationärer Altenpflege?',
+                  a: 'In der stationären Pflege arbeiten Sie in Pflegeheimen oder Seniorenresidenzen, wo Bewohner rund um die Uhr betreut werden. In der ambulanten Pflege besuchen Sie pflegebedürftige Menschen zu Hause und unterstützen sie in ihrer gewohnten Umgebung. Beide Bereiche haben ihre eigenen Vorteile und Herausforderungen.'
+                },
+                {
+                  q: 'Wie bewerbe ich mich über stellen-altenpflege.de?',
+                  a: 'Durchsuchen Sie unsere aktuellen Stellenangebote, filtern Sie nach Einrichtungsart, Standort oder Schichtmodell und klicken Sie auf die gewünschte Stelle. Sie werden direkt zur Bewerbungsseite des Arbeitgebers weitergeleitet, wo Sie Ihre Unterlagen einreichen können.'
+                },
+              ].map((faq, i) => (
+                <div key={i} className="border border-rose-100 rounded-2xl p-6" itemScope itemProp="mainEntity" itemType="https://schema.org/Question">
+                  <h3 className="text-lg font-bold text-rose-950 mb-2" itemProp="name">{faq.q}</h3>
+                  <div itemScope itemProp="acceptedAnswer" itemType="https://schema.org/Answer">
+                    <p className="text-rose-900/60 leading-relaxed" itemProp="text">{faq.a}</p>
+                  </div>
+                </div>
+              ))}
+            </div>
+          </div>
+        </section>
+
       </main>
-      
+
       <footer className="bg-white border-t border-rose-100 py-20 mt-20">
         <div className="max-w-7xl mx-auto px-4 grid grid-cols-1 md:grid-cols-4 gap-12 text-center md:text-left">
           <div className="col-span-1 md:col-span-2">

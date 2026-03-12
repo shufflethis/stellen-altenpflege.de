@@ -1,19 +1,35 @@
 # HR-UPDATER: v1.0
 # stellen-altenpflege.de - Altenpflege Stellenangebote
 
-> stellen-altenpflege.de ist ein spezialisiertes Jobportal fuer Altenpflege-Stellenangebote in Deutschland, Oesterreich und der Schweiz.
+> stellen-altenpflege.de ist ein spezialisiertes Jobportal fuer Altenpflege-Stellenangebote in Deutschland, Oesterreich und der Schweiz. Betrieben von Social Media Venture GmbH.
 
 ## Ueber uns
 - Spezialisiertes Jobportal fuer Altenpflege
 - Kostenlose Stellensuche fuer Bewerber
 - Gezielte Reichweite fuer Arbeitgeber
+- Stellenangebote fuer Pflegefachkraefte, Pflegehilfskraefte, Pflegedienstleitungen und mehr
+
+## Betreiber
+- Firma: Social Media Venture GmbH
+- Geschaeftsfuehrer: Thomas Sander
+- Adresse: Schliemannstrasse 23, 10437 Berlin
+- Telefon: +49 30 959 988 700
+- Website: https://stellen-altenpflege.de
 
 ## Kontakt
 - Website: https://stellen-altenpflege.de
-- Arbeitgeber-Kontakt: https://stellen-altenpflege.de/kontakt-arbeitgeber
-- Bewerber-Kontakt: https://stellen-altenpflege.de/kontakt-bewerber
+- Arbeitgeber-Kontakt: https://stellen-altenpflege.de/#/kontakt
+- Bewerber-Kontakt: https://stellen-altenpflege.de/#/kontakt
 
 ## Inhalte
-- Aktuelle Altenpflege-Stellenangebote
+- Aktuelle Altenpflege-Stellenangebote in ganz Deutschland
 - Karriere-Ratgeber fuer Altenpflege
 - Gehaltsvergleiche und Brancheninformationen
+- Stellenangebote nach Stadt: Berlin, Muenchen, Hamburg, Koeln, Frankfurt, Stuttgart, Duesseldorf und weitere
+
+## Seiten
+- Startseite: https://stellen-altenpflege.de/
+- Kontakt: https://stellen-altenpflege.de/#/kontakt
+- Impressum: https://stellen-altenpflege.de/#/impressum
+- Datenschutz: https://stellen-altenpflege.de/#/datenschutz
+- Autor: https://stellen-altenpflege.de/#/autor/thomas-sander
